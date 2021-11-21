@@ -1,0 +1,12 @@
+{% for ins2 in object_list2 %}
+
+
+ <tr>
+
+    <td>{{ ins2.text }}</td>
+    <td><a class="fas fa-edit" href="{% url 'post' ins.id %}">{{ ins2.text }}</a></td>
+   
+
+           {% endfor %}
+
+       </table>
